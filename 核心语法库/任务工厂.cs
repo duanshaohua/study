@@ -18,7 +18,7 @@ namespace 核心语法库
             //创建10个线程
             for (int i = 0; i < 10; i++)
             {
-                Action action = new Action(task);
+                Action action = new Action(Task);
                 //启动一个线程去，创建对象
                 taskFactory.StartNew(action);
             }
@@ -26,6 +26,6 @@ namespace 核心语法库
         /// <summary>
         /// 空任务方法
         /// </summary>
-        public void task() { }
+        public void Task() { }
     }
 }

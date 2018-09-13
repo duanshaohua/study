@@ -47,6 +47,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyReflecton", "MyReflecton\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DapperUse", "DapperUse\DapperUse.csproj", "{C516FC3A-90FC-445D-856D-819382FD2970}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EF", "EF\EF.csproj", "{4C2BBE91-E5BD-430F-85F7-1293987E555F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScriptCompressor", "ScriptCompressor\ScriptCompressor.csproj", "{A80EFBBE-7647-4497-80F7-D0A69FF3930F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -125,6 +129,14 @@ Global
 		{C516FC3A-90FC-445D-856D-819382FD2970}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C516FC3A-90FC-445D-856D-819382FD2970}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C516FC3A-90FC-445D-856D-819382FD2970}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C2BBE91-E5BD-430F-85F7-1293987E555F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C2BBE91-E5BD-430F-85F7-1293987E555F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C2BBE91-E5BD-430F-85F7-1293987E555F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C2BBE91-E5BD-430F-85F7-1293987E555F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A80EFBBE-7647-4497-80F7-D0A69FF3930F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A80EFBBE-7647-4497-80F7-D0A69FF3930F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A80EFBBE-7647-4497-80F7-D0A69FF3930F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A80EFBBE-7647-4497-80F7-D0A69FF3930F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

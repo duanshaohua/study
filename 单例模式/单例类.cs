@@ -43,7 +43,7 @@ namespace Singleton
                 //加锁
                 lock (Lock)
                 {
-                    Thread.Sleep(1000);
+                    //Thread.Sleep(1000);
                     //二次检测singletonOne是否为空，保证单例
                     if (singleton == null)
                     {
